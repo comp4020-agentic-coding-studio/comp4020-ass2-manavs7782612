@@ -39,7 +39,9 @@ for a page someone reads rather than code that compiles:
 commits to a rule that no reader-facing change is finished until an agent
 that didn't write it has read the changed pages against the rest of the
 site. That rule has a blind spot: one careful reader still shares the page's
-own assumptions about what needs explaining. So before shipping I ran five
+own assumptions about what needs explaining. 
+
+So before shipping I ran five
 agents over the deployed pages as five different readers — a skeptical
 overachiever, an anxious first-timer, a skimmer, a slop-detector, a
 logistics nitpicker — under the same quote-or-say-nothing discipline as the
