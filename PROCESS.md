@@ -52,3 +52,13 @@ the sessions index, and the exact tone of the late-work policy. Both are taste
 calls that cut either way, and a permanent check for either would fight the
 next person's judgement instead of catching a real drift — the same standard
 the other three had to clear.
+
+One more check felt worth doing before calling this done: the feedback on my
+Assignment 1 submission flagged a component with a broken state on screen and
+no visible interaction cue — this course's own HD artefact descriptor names
+the same failure directly: holding up under the keyboard, a resize
+mid-interaction, a slow connection. Each held: the theme's global
+`:focus-visible` rule covers every button and link, the nav re-syncs its open
+state on a breakpoint change (`Nav.astro:151-158,165`), and every image ships
+as a small responsive avif with no external calls blocking the page. Verified,
+not assumed.
