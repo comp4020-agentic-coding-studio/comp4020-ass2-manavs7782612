@@ -38,3 +38,33 @@ the prose files and blocks the end of any turn that changed them until the
 review has run. `.claude/` is machine-local and gitignored --- the hook is the
 enforcement, this file is the rule. The rule stands whether or not the hook is
 loaded.
+
+## The checklist was tested against five readers, not one
+
+`prose-coherence` catches whether a page agrees with itself. It won't catch
+whether an anxious beginner bounces off unglossed jargon, or a skimmer loses
+the thread by session five, or a skeptic reads "assessed on its merits" as a
+promise that "baking someone else's dough" carries no answering cost --- a
+single review, however careful, shares whoever wrote the page's blind spots
+and assumed vocabulary.
+
+So before shipping, five agents read the deployed site as five different
+students: a skeptical overachiever testing whether the bake-offs and the
+twelve weeks actually escalate; an anxious first-timer testing whether jargon
+lands where reassurance is supposed to; a skimmer giving each page fifteen
+seconds; a slop-detector comparing all twelve sessions and all twelve
+lectures side by side for templated filler; a logistics nitpicker
+cross-referencing every week, date, weight and link. Same discipline as
+`prose-coherence`: a finding is a quote and a file, or it isn't a finding.
+
+Three of their findings were properties any future page can fail again, not
+defects only that page had, so they're now permanent checks in
+`prose-coherence`: a term used at a reader's first contact with a topic has
+to carry its own meaning or gloss it; a policy that states a rule sits next
+to what happens if it's broken, like its neighbours already do; a nav label
+and the page it points to agree on the word and its number.
+
+Two other findings didn't become rules --- a repeated title shape across the
+sessions index, and the exact tone of the late-work policy --- because both
+are taste calls that cut either way, and a permanent check would fight the
+next person's judgement instead of catching a real drift.
